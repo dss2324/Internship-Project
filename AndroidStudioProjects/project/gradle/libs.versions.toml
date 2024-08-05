@@ -1,0 +1,111 @@
+[versions]
+agp = "8.5.0"
+androidxCameraCamera2 = "1.1.0-alpha10"
+androidxCameraCamera2Version = "1.0.0"
+androidxCameraCameraCamera2 = "1.1.0-alpha07"
+androidxCameraCameraCore = "1.0.0"
+androidxCameraCameraCore3 = "1.1.0-alpha07"
+androidxCameraCameraLifecycle2 = "1.1.0-alpha07"
+androidxCameraCameraVideo = "1.0.0"
+androidxCameraCameraVideo2 = "1.0.0-alpha27"
+androidxCameraCameraVideo3 = "1.3.0"
+androidxCameraCameraView = "1.0.0-alpha27"
+androidxCameraCore = "1.3.0"
+androidxCameraCoreVersion = "1.1.0-alpha10"
+androidxCameraLifecycle = "1.1.0-alpha10"
+androidxCameraLifecycleVersion = "1.0.0"
+androidxCameraVideo = "1.2.0"
+androidxCameraView = "1.0.0-alpha10"
+androidxCameraViewVersion = "1.0.0-alpha26"
+barcodeScanning = "18.1.0"
+cameraCamera2 = "1.2.0"
+cameraCamera2Version = "1.3.0"
+cameraCore = "1.3.4"
+cameraCoreVersion = "1.2.0"
+cameraLifecycle = "1.2.0"
+cameraLifecycleVersion = "1.3.0"
+cameraVideo = "1.1.0-alpha03"
+cameraVideoVersion = "1.1.0-alpha10"
+cameraView = "1.2.0"
+cameraViewVersion = "1.3.0"
+cropper = "2.8.0"
+documentScanning = "17.0.0"
+googleServices = "4.4.2"
+gradle = "8.0.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+opencvAndroid = "4.5.3"
+playServicesVision = "20.1.3"
+textRecognition = "18.0.0"
+ucrop = "2.2.9"
+visionCommon = "17.3.0"
+playServicesMlkitTextRecognitionCommon = "19.0.0"
+playServicesMlkitTextRecognition = "19.0.0"
+gamesActivity = "3.0.4"
+cronetEmbedded = "119.6045.31"
+volley = "1.2.1"
+
+[libraries]
+androidx-camera-camera-video4 = { module = "androidx.camera:camera-video", version.ref = "cameraCore" }
+androidx-camera-camera2-v100 = { module = "androidx.camera:camera-camera2", version.ref = "androidxCameraCamera2Version" }
+androidx-camera-camera2-v110alpha07 = { module = "androidx.camera:camera-camera2", version.ref = "androidxCameraCameraCamera2" }
+androidx-camera-camera2-v110alpha10 = { module = "androidx.camera:camera-camera2", version.ref = "androidxCameraCamera2" }
+androidx-camera-core-v100 = { module = "androidx.camera:camera-core", version.ref = "androidxCameraCameraCore" }
+androidx-camera-core-v110alpha07 = { module = "androidx.camera:camera-core", version.ref = "androidxCameraCameraCore3" }
+androidx-camera-core-v110alpha10 = { module = "androidx.camera:camera-core", version.ref = "androidxCameraCoreVersion" }
+androidx-camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "androidxCameraView" }
+androidx-camera-lifecycle-v100 = { module = "androidx.camera:camera-lifecycle", version.ref = "androidxCameraLifecycleVersion" }
+androidx-camera-lifecycle-v110alpha07 = { module = "androidx.camera:camera-lifecycle", version.ref = "androidxCameraCameraLifecycle2" }
+androidx-camera-lifecycle-v110alpha10 = { module = "androidx.camera:camera-lifecycle", version.ref = "androidxCameraLifecycle" }
+androidx-camera-video-v100 = { module = "androidx.camera:camera-video", version.ref = "androidxCameraCameraVideo" }
+androidx-camera-video-v100alpha27 = { module = "androidx.camera:camera-video", version.ref = "androidxCameraCameraVideo2" }
+androidx-camera-video-v110alpha03 = { module = "androidx.camera:camera-video", version.ref = "cameraVideo" }
+androidx-camera-video-v110alpha10 = { module = "androidx.camera:camera-video", version.ref = "cameraVideoVersion" }
+androidx-camera-video-v120 = { module = "androidx.camera:camera-video", version.ref = "androidxCameraVideo" }
+androidx-camera-video-v130 = { module = "androidx.camera:camera-video", version.ref = "androidxCameraCameraVideo3" }
+androidx-camera-view-v100alpha10 = { module = "androidx.camera:camera-view", version.ref = "androidxCameraView" }
+androidx-camera-view-v100alpha26 = { module = "androidx.camera:camera-view", version.ref = "androidxCameraViewVersion" }
+androidx-camera-view-v100alpha27 = { module = "androidx.camera:camera-view", version.ref = "androidxCameraCameraView" }
+barcode-scanning = { module = "com.google.mlkit:barcode-scanning", version.ref = "barcodeScanning" }
+camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCore" }
+camera-camera2-v120 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCamera2" }
+camera-camera2-v130 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCamera2Version" }
+camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCore" }
+camera-core-v120 = { module = "androidx.camera:camera-core", version.ref = "cameraCoreVersion" }
+camera-core-v130 = { module = "androidx.camera:camera-core", version.ref = "androidxCameraCore" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraCore" }
+camera-lifecycle-v120 = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraLifecycle" }
+camera-lifecycle-v130 = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraLifecycleVersion" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraCore" }
+camera-view-v120 = { module = "androidx.camera:camera-view", version.ref = "cameraView" }
+camera-view-v130 = { module = "androidx.camera:camera-view", version.ref = "cameraViewVersion" }
+cropper = { module = "com.github.arthurhub:cropper", version.ref = "cropper" }
+document-scanning = { module = "com.google.mlkit:document-scanning", version.ref = "documentScanning" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+opencv-android = { module = "com.github.opencv:opencv-android", version.ref = "opencvAndroid" }
+play-services-vision = { module = "com.google.android.gms:play-services-vision", version.ref = "playServicesVision" }
+text-recognition = { module = "com.google.mlkit:text-recognition", version.ref = "textRecognition" }
+ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucrop" }
+vision-common = { group = "com.google.mlkit", name = "vision-common", version.ref = "visionCommon" }
+play-services-mlkit-text-recognition-common = { group = "com.google.android.gms", name = "play-services-mlkit-text-recognition-common", version.ref = "playServicesMlkitTextRecognitionCommon" }
+play-services-mlkit-text-recognition = { group = "com.google.android.gms", name = "play-services-mlkit-text-recognition", version.ref = "playServicesMlkitTextRecognition" }
+games-activity = { group = "androidx.games", name = "games-activity", version.ref = "gamesActivity" }
+cronet-embedded = { group = "org.chromium.net", name = "cronet-embedded", version.ref = "cronetEmbedded" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
